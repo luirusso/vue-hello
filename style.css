@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: #001E38;
+}
+
 #root {
     display: flex;
     flex-direction: column;
@@ -16,8 +20,10 @@
 
 .main-title {
     padding-bottom: 1rem;
+    color: white;
 }
 
 .jumbo {
     width: 30%;
+    border: 2px solid #E0E0E0;
 }
